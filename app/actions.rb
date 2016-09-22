@@ -46,7 +46,7 @@ get '/' do
         }]
     }
     
-    @post = [@post_shark,@post_whale,@post_marlin]
+    @posts = [@post_shark,@post_whale,@post_marlin]
     
         
         erb :index
